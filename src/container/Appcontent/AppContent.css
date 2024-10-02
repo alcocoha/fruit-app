@@ -1,0 +1,36 @@
+.app{
+  background-color:  rgb(255 228 187);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(168 168 168);
+}
+.appcontent-wrapper{
+  display: flex;
+  width: 100%;
+}
+.fruits{
+  width: 60%;
+  padding: 20px;
+}
+
+.jar{
+  width: 40%;
+  padding: 20px;
+  position: relative;
+}
+.jar-fixed{
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 200px;
+  width: 398px;
+  right: 8%;
+}
+
+.jar-center{
+  background-image: url('../../assets/jar-center.png');
+  background-repeat: repeat-y;
+  margin-top: -5px;
+  padding-left: 44px;
+  padding-top: 17px;
+}
